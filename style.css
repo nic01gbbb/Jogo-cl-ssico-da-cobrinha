@@ -111,6 +111,7 @@ color: wheat;
 .over{
 margin-bottom: -80px;
 user-select:none;
+pointer-events:none;
 }
 .final span{
 margin-top: 20px;
