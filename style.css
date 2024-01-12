@@ -135,7 +135,6 @@ position: absolute;
 margin-left: 850px;
 cursor: pointer;
 transition: transform 0.5;
-pointer-events:none;
 user-select:none;
 
 }
