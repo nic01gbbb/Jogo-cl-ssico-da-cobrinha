@@ -107,6 +107,8 @@ bottom: 0;
 background-color: black;
 opacity: 0.6;
 color: wheat;
+pointer-events:none;
+user-select:none;
 }
 .over{
 margin-bottom: -80px;
