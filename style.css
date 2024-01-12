@@ -41,6 +41,7 @@ font-weight: 700;
 .imgcel{
 display: flex;
 margin-bottom: 30px;
+user-select:none;
 }
 .imgstart{
 width: 200px;
