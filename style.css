@@ -108,6 +108,7 @@ color: wheat;
 }
 .over{
 margin-bottom: -80px;
+user-select:none;
 }
 .final span{
 margin-top: 20px;
