@@ -14,6 +14,15 @@ width: 350px;
 margin: 100px 500px;
 position: absolute;
 margin-top: 600px;
+@media(max-width: 920px){
+margin-left: 300px;
+}
+@media(max-width: 711px){
+margin-left: 150px;
+}
+@media(max-width: 559px){
+margin-left: 80px;
+}
 }
 main{
 display: flex;
@@ -27,6 +36,70 @@ position: absolute;
 width: 50px;
 margin-right: 1200px;
 cursor: pointer;
+@media(max-width: 1162px){
+margin-left: 250px;
+}
+@media(max-width: 1008px){
+margin-left: 400px;
+}
+ 
+@media(max-width: 854px){
+margin-left: 580px;
+width: 50px;
+padding: 5px;
+}
+ 
+@media(max-width: 665px){
+margin-left: 650px;
+width: 30px;
+padding: 5px;
+}
+ 
+@media(max-width: 574px){
+margin-left: 700px;
+width: 30px;
+padding: 5px;
+}
+ 
+@media(max-width: 520px){
+margin-left: 750px;
+width: 30px;
+padding: 5px;
+}
+ 
+@media(max-width: 470px){
+margin-left: 760px;
+width: 30px;
+padding: 5px;
+}
+ 
+@media(max-width: 462px){
+margin-left: 770px;
+width: 30px;
+padding: 5px;
+}
+ 
+ 
+@media(max-width: 456px){
+margin-left: 850px;
+width: 30px;
+padding: 5px;
+}
+ 
+ 
+@media(max-width: 396px){
+width: 300px;
+padding: 5px;
+}
+ 
+
+
+@media(max-width: 408px){
+margin-left: 20px;
+}
+    
+
+
 }
 
 .msgbegin{
@@ -37,19 +110,40 @@ display: flex;
 margin-left: -50px;
 margin-bottom: 20px;
 font-weight: 700;
+@media(max-width: 497px){
+font-size: 15px;
+}
+@media(max-width: 348px){
+font-size: 10px;
+}
+
 }
 .imgcel{
 display: flex;
 margin-bottom: 30px;
-user-select:none;
-pointer-events:none;
+@media(max-width:497px){
+width: 200px;
 }
+@media(max-width:348px){
+width: 100px;
+}
+
+
+}
+
 .imgstart{
 width: 200px;
 margin-left: 80px;
 cursor: pointer;
-background-color:"red"
+@media(max-width:497px){
+width: 150px;
+margin-left: 30px;
 
+@media(max-width:348px){
+width: 80px;
+margin-left: 10px;
+}
+}
 
 }
 .canvas{
@@ -58,6 +152,13 @@ margin: -8px auto;
 display: none;
 align-items: center;
 justify-content: center;
+@media(max-width: 1162px){
+width: 300px;
+}
+@media(max-width: 408px){
+width: 300px;
+}
+
 
 }
 header{
@@ -72,7 +173,21 @@ width: 100%;
 margin: 20px auto;
 padding: 2px;
 border-radius: 5px;
-user-select:none;
+
+@media(max-width: 1162px){
+max-width: 400px;
+}
+@media(max-width: 1162px){
+max-width: 200px;
+}
+
+
+@media(max-width: 408px){
+max-width: 300px;
+
+}
+
+
 }
 .time{
 font-size: 22px;
@@ -111,10 +226,6 @@ color: wheat;
 }
 .over{
 margin-bottom: -80px;
-user-select:none;
-pointer-events:none;
-padding-botoom:200px;
-
 }
 .final span{
 margin-top: 20px;
@@ -136,8 +247,6 @@ position: absolute;
 margin-left: 850px;
 cursor: pointer;
 transition: transform 0.5;
-user-select:none;
-
 }
 .resete:hover{
 transform: scale(1.30);
@@ -148,5 +257,6 @@ transform: scale(1.30);
 margin-bottom: 400px;
 
 }
+
 
 
