@@ -88,7 +88,7 @@ padding: 5px;
  
 @media(max-width: 410px){
 width: 30px;
-margin-left: 820px;
+margin-left: 860px;
 margin-bottom: 20px;
 }
     
@@ -225,7 +225,6 @@ margin-top: 20px;
 font-size: 40px;
 display: flex;
 flex-direction: column;
-
 }
 .spanfinal{
 display: flex;
